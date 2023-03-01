@@ -1,0 +1,52 @@
+.input-area {
+    width: 700px;
+    margin: auto;
+    padding: 45px;
+}
+
+.input-file input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 6px;
+}
+
+button.submit:hover {
+    background: #5dd122;
+}
+
+button.submit {
+    width: 100%;
+    background: #fb900a;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    padding: 9px;
+    transition: .3s;
+}
+
+a.Update {
+    background: green;
+    color: #fff;
+    transition: .3s;
+    border: none;
+    text-decoration: none;
+    padding: 2px 6px;
+}
+
+a.Update:hover {
+    background: #3ee80c;
+}
+
+button.Delete {
+    background: #ff1c00;
+    color: #fff;
+    transition: .3s;
+    border: none;
+}
+
+button.Delete:hover {
+    background: #ae533a;
+}
