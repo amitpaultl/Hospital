@@ -10,7 +10,7 @@ const Update = () => {
     const navigate = useNavigate()
 
     const { id } = useParams()
-    const url = `http://localhost:5000/getpresent/${id}`;
+    const url = `https://server-amitpaultl.vercel.app/getpresent/${id}`;
     const { data: patient, isLoading, refetch } = useQuery({
         queryKey: ['user'],
         queryFn: async () => {
@@ -40,7 +40,7 @@ const Update = () => {
             name, contact, address, pincode
         }
         console.log(product);
-        fetch(`http://localhost:5000/getpresent/${id}`, {
+        fetch(`https://server-amitpaultl.vercel.app/getpresent/${id}`, {
             method: 'PUT',
             headers: {
 
